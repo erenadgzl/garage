@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "6cc70e64-49ca-44cc-8a1e-491d2bd0b46f",
+		"name": "Garage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19132627"
+	},
+	"item": [
+		{
+			"name": "Car Park Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"CAR\",\n    \"color\": \"Red\",\n    \"licencePlate\": \"34-CAR-556\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/garage/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Truck Park Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"TRUCK\",\n    \"color\": \"Red\",\n    \"licencePlate\": \"34-TRUCK-556\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/garage/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jeep Park Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"JEEP\",\n    \"color\": \"Red\",\n    \"licencePlate\": \"34-JEEP-556\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/garage/park",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/garage/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"garage",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Leave Vehicle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ticketNo\" : \"1252c0e3-b280-43ac-805d-e7a28edd66f4\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/garage/leave",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"garage",
+						"leave"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
