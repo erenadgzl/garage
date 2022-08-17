@@ -18,6 +18,8 @@ For building and running the application you need:
 
 # API
 
+Swagger : http://localhost:8080/api/v1/swagger-ui/
+
 _You can use the postman collection inside the project._
 
 | Endpoints  | Request Body | Description |
